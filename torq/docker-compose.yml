@@ -7,7 +7,7 @@ services:
       APP_PORT: 7028
 
   web:
-    image: lncapital/torq:0.19.2@sha256:463851d9743e97a0524f0fddbc0f4c14d793f49aa6985f970776c3af4737b063
+    image: lncapital/torq:0.20.0-rc1@sha256:cbfe78b02dfc1771ec2d928b61b4fe5ab6b47a3d09c45d0580a5f48f8d0c1bac
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
