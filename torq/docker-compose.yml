@@ -30,7 +30,7 @@ services:
       - /lnd/tls.cert
       - --torq.auto-login
       - --torq.pprof.path
-      - "localhost:6060"
+      - :6060
       - start
 
   db:
